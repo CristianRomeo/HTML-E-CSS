@@ -1,0 +1,40 @@
+/* Reset di base */
+body,
+h1,
+p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stile generale del corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Stile dell'header */
+header {
+    background-color: #6200ea;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Stile del pulsante */
+button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
